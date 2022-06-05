@@ -74,7 +74,7 @@ export default function App() {
             </div>
 
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 w-11/12 m-auto py-2'>
-            <div className='order-last lg:order-firsttext-white p-6 w-full m-auto flex flex-col gap-4 bg-savant-card rounded-xl flex'>
+            <div className='order-last lg:order-first text-white p-6 w-full m-auto flex flex-col gap-4 bg-savant-card rounded-xl flex'>
             <h1 className='font-bold text-3xl text-blue-400'>MetaWeaver</h1>
             <h2 className='text-xl text-white text-left'>Our groundbreaking software used to seamlessly <span className='text-blue-400'>create</span> digital learning environments.</h2>
            <Link to="products/metaweaver">
