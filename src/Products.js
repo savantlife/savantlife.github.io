@@ -38,10 +38,10 @@ export default function Products() {
             </AnimationOnScroll>
         </div>
     
-        <div className='h-screen w-screen'>
+        <div className='h-full w-screen'>
             
-        <div className='h-screen w-screen'>
-        <div style={{ backgroundImage:`url(${image48})` }} className='bg-savant-home w-screen bg-center bg-cover h-1/2 relative'>
+        <div className='h-full w-screen'>
+        <div style={{ backgroundImage:`url(${image48})` }} className='bg-savant-home w-screen bg-center bg-cover vh-50  relative'>
             <AnimationOnScroll animateIn='animate__fadeIn'>
             <div className='m-auto md:m-0 relative rounded-xl bg-opacity-100 p-6 w-full z-10'>
             <div className='grid w-full grid-cols-1 md:grid-cols-2'>
@@ -55,14 +55,14 @@ export default function Products() {
         </div>
             </AnimationOnScroll>
         </div>
-        <div style={{ backgroundImage:`url(${image47})` }} className='bg-savant-home w-screen bg-center bg-cover h-1/2 relative'>
+        <div style={{ backgroundImage:`url(${image47})` }} className='bg-savant-home w-screen bg-center bg-cover vh-50 relative'>
         <AnimationOnScroll animateIn='animate__fadeIn'>
         <div className='m-auto md:m-0 relative rounded-xl bg-opacity-100 p-6 w-full z-10'>
             <div className='grid w-full grid-cols-1 md:grid-cols-2'>
             <div className='w-full h-full'></div>
             <div className='w-full h-full text-white p-6 m-auto flex py-10 flex-col gap-4 bg-savant-home rounded-xl flex'>
             <h1 className='font-bold text-3xl text-white'>Discover</h1>
-            <h2 className='text-xl text-white text-left'>Explore the Savant Lobby with personalized content plans and alternate realities. View top courses, trending, and other virtual boards. Choose a desired enviornment and jump into the world!</h2>
+            <h2 className='text-xl text-white text-left'>Explore the Savant Lobby with personalized content plans and simulated realities. View top courses, trending, and other virtual boards. Choose a desired enviornment and jump into the world!</h2>
             </div>
             </div>
         </div>
@@ -70,7 +70,7 @@ export default function Products() {
 
         </div>
         </div>
-        <div style={{ backgroundImage:`url(${image49})` }} className='bg-savant-home w-screen bg-center bg-cover h-1/2 relative'>
+        <div style={{ backgroundImage:`url(${image49})` }} className='bg-savant-home w-screen bg-center bg-cover vh-50  relative'>
            
         <AnimationOnScroll animateIn='animate__fadeIn'>
         <div className='m-auto md:m-0 relative rounded-xl bg-opacity-100 p-6 w-full z-10'>
@@ -87,7 +87,7 @@ export default function Products() {
            
 
         </div>
-        <div style={{ backgroundImage:`url(${image50})` }} className='bg-savant-home bg-center w-screen bg-cover h-1/2 relative'>
+        <div style={{ backgroundImage:`url(${image50})` }} className='bg-savant-home bg-center w-screen bg-cover vh-50  relative'>
         <AnimationOnScroll animateIn='animate__fadeIn'> <div className='m-auto md:m-0 relative rounded-xl bg-opacity-100 p-6 w-full z-10'>
             <div className='grid w-full grid-cols-1 relative  md:grid-cols-2'>
             <div className='w-full h-full'></div>
@@ -163,7 +163,7 @@ export default function Products() {
                     <div className='bg-savant-card rounded-xl flex flex-col text-white space-y-2 m-auto p-6 mt-2'>
                     <h2 className='text-blue-400 text-center text-xl font-bold'>Art</h2>
                     <h3 className='w-full text-center'>
-                    Discover new and currentmediums for art in 3D, and learn about its past. </h3>                    </div>
+                    Discover new and current mediums for art in 3D, and learn about its past. </h3>                    </div>
                 </div>
         </AnimationOnScroll>
         </div>

@@ -34,6 +34,7 @@ export default function Nav() {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
+                  <Link to="/">
                   <img
                     className="block lg:hidden h-12 w-auto mix-blend-lighten"
                     src={savantlogo}
@@ -44,6 +45,7 @@ export default function Nav() {
                     src={savantlogo}
                     alt="Savant"
                   />
+                  </Link>
                 </div>
                 <div className="hidden flex-end absolute inset-y-0 right-0 flex items-center sm:block sm:ml-6">
                   <div className="flex space-x-4 my-4">

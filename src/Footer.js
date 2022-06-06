@@ -1,4 +1,5 @@
 import savantlogo from './assets/savantlogo.png'
+import { Link } from "react-router-dom";
 export default function Footer() {
     return(
 <div className='pt-6 bg-savant-home'>
@@ -18,16 +19,33 @@ export default function Footer() {
 <h2 class="mb-6 text-sm font-semibold uppercase">Menu</h2>
 <ul class="text-white">
 <li class="mb-4">
-<a href="/" class="hover:underline">Home</a>
+    <Link to="/">
+    <p class="hover:underline">Home</p>
+    </Link>
 </li>
 <li class="mb-4">
-<a href="/products" class="hover:underline">Savant</a>
+<Link to="/products">
+<p class="hover:underline">Savant</p>
+</Link>
 </li>
 <li class="mb-4">
-<a href="/products/metaweaver" class="hover:underline">MetaWeaver
-</a></li><a href="/aboutus" class="hover:underline">About Us
-</a><li class="mb-4"><a href="#" class="hover:underline">
-</a>
+<Link to="/products/metaweaver">
+<p class="hover:underline">MetaWeaver
+</p>
+</Link>
+</li>
+<li class="mb-4">
+<Link to="/science">
+<p class="hover:underline">Science
+</p>
+</Link>
+</li>
+<Link to="/aboutus">
+<p class="hover:underline">About Us
+</p>
+</Link>
+<li class="mb-4"><p class="hover:underline">
+</p>
 </li>
 </ul>
 </div>
@@ -38,19 +56,10 @@ export default function Footer() {
 <a href="mailto:srujanesh@savant.life" class="hover:underline">Email</a>
 </li>
 <li class="mb-4">
-<a href="#" class="hover:underline">Facebook</a>
-</li>
-<li class="mb-4">
-<a href="#" class="hover:underline">Twitter</a>
-</li>
-<li class="mb-4">
 <a href="https://www.instagram.com/savant.life/" class="hover:underline">Instagram</a>
 </li>
 <li class="mb-4">
 <a href="https://www.linkedin.com/company/savant-life/" class="hover:underline">LinkedIn</a>
-</li>
-<li class="mb-4">
-<a href="#" class="hover:underline">YouTube</a>
 </li>
 </ul>
 </div>

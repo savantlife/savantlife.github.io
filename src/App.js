@@ -157,7 +157,7 @@ export default function App() {
         <AnimationOnScroll animateIn="animate__fadeIn">
         <div className='grid w-full relative lg:bottom-24 lg:pt-0 grid-cols-1 lg:grid-cols-2 gap-1 p-6 pt-2 px-12 m-auto'>
             <div className='w-full h-full'></div>
-            <div className='w-5/6 h-full text-white p-6 py-10 flex-col gap-4 bg-savant-card rounded-xl flex'>
+            <div className='w-5/6 h-full relative text-white p-6 py-10 flex-col gap-4 bg-savant-card rounded-xl flex'>
             <h1 className='font-bold text-3xl text-white'>Improved content retention</h1>
             <h2 className='text-xl text-white text-left'>Experiences in virtual reality yield improvements in students' abilities to <span className='text-blue-400'>reflect</span>, <span className='text-blue-400'>abstract</span>, and actively experiment, leading to better retention of learned content.</h2>
          </div>
@@ -173,9 +173,9 @@ export default function App() {
         </div>
         </AnimationOnScroll>
         </div>
-        <div className='grid px-8 pb-6 pt-6 my-12 lg:w-5/6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 m-auto flex gap-6 text-white'>
+        <div className='grid px-8 pb-6 pt-6 my-12 lg:w-5/6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 m-auto flex gap-4 text-white'>
             <AnimationOnScroll animateIn="animate__fadeIn">
-                <div className='w-3/4 h-full p-4 m-auto flex-col items-center bg-savant-card rounded-xl flex'>
+                <div className='w-full h-full p-4 m-auto flex-col items-center bg-savant-card rounded-xl flex'>
                     <img src={arvr} className='aspect-square w-10 h-10 mb-2 mt-2'></img>
                     <h3 className='w-full text-center '>
                     VR makes learning an <span className='text-blue-400'>experience</span> rather than a chore for students.
@@ -183,7 +183,7 @@ export default function App() {
                 </div>
                 </AnimationOnScroll>
                 <AnimationOnScroll animateIn="animate__fadeIn">
-                <div className='w-3/4 h-full p-4 m-auto flex-col items-center bg-savant-card rounded-xl flex'>
+                <div className='w-full h-full p-4 m-auto flex-col items-center bg-savant-card rounded-xl flex'>
                     <img src={deg} className='aspect-square w-10 h-10 mb-2 mt-2'></img>
                     <h3 className='w-full text-center '>
                     Immersive digital worlds keep students <span className='text-blue-400'>focused.</span>
@@ -191,7 +191,7 @@ export default function App() {
                 </div>
                 </AnimationOnScroll>
                 <AnimationOnScroll animateIn="animate__fadeIn">
-                <div className='w-3/4 h-full p-4 m-auto flex-col items-center bg-savant-card rounded-xl flex'>
+                <div className='w-full h-full p-4 m-auto flex-col items-center bg-savant-card rounded-xl flex'>
                     <img src={gaming} className='aspect-square w-10 h-10 mb-2 mt-2'></img>
                     <h3 className='w-full text-center '>
                     Virtual environments offer <span className='text-blue-400'>more flexibility</span> than real-world teaching.
@@ -199,7 +199,7 @@ export default function App() {
                 </div>
                 </AnimationOnScroll>
                 <AnimationOnScroll animateIn="animate__fadeIn">
-                <div className='w-3/4 h-full p-4 m-auto flex-col items-center bg-savant-card rounded-xl flex'>
+                <div className='w-full h-full p-4 m-auto flex-col items-center bg-savant-card rounded-xl flex'>
                     <img src={businessplan} className='aspect-square w-10 h-10 mb-2 mt-2'></img>
                     <h3 className='w-full text-center '>
                     Subscription-based models are more <span className='text-blue-400'>affordable</span> than others.
