@@ -178,7 +178,7 @@ export default function App() {
                 <div className='w-full h-full p-4 m-auto flex-col items-center bg-savant-card rounded-xl flex'>
                     <img src={arvr} className='aspect-square w-10 h-10 mb-2 mt-2'></img>
                     <h3 className='w-full text-center '>
-                    VR makes learning an <span className='text-blue-400'>experience</span> rather than a chore for students.
+                    VR makes learning an <span className='text-blue-400'>experience</span> rather than a chore.
                     </h3>
                 </div>
                 </AnimationOnScroll>

@@ -1,6 +1,6 @@
 {
   "name": "savant-site",
-  "homepage": "https://savant.life",
+  "homepage": "https://savant.life/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

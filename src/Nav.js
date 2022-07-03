@@ -2,7 +2,6 @@ import { Disclosure} from '@headlessui/react'
 import { Link } from "react-router-dom";
 import {MenuIcon, XIcon } from '@heroicons/react/outline'
 import savantlogo from './assets/savantlogo.png'
-import Navigate from './Navigate';
 const navigation = [
   { name: 'Home', href: '/', current: false, indent: false },
   { name: 'Savant', href: '/products', current: false, indent: false },

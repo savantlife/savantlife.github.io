@@ -1,18 +1,13 @@
 import Nav from './Nav'
 import Footer from "./Footer"
-import landscape from './assets/team/landscape.png'
 import rut from './assets/team/rut.png'
 import oliver from './assets/team/oliver.png'
-import aileen from './assets/team/aileen.png'
 import sunny from './assets/team/sunny.png'
 import brianna from './assets/team/brianna.png'
 import deshik from './assets/team/deshik.png'
-import janae from './assets/team/janae.png'
 import chai from './assets/team/chai.png'
 import claudia from './assets/team/claudia.png'
-import kat from './assets/team/kat.png'
 import neha from './assets/team/neha.png'
-import LUIS from "./assets/LUIS.svg"
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
@@ -100,21 +95,6 @@ export default function Team() {
                 Claudia is an honors student at Rutgers New Brunswick studying Cognitive Science. Claudia has mentorship experience both in academia and for University equity and inclusion in programs aiding underrepresented college students. She has determined work within the field of cognitive neuroscience including a research fellowship based on her study proposal of the integration of experiential learning within the education system. Claudia currently is pursing an internship working with stakeholders at Prophet consultancy company based in NY, with the goal of targeting Neurodiversity within the community at Rutgers. She possesses the skills and mindset of an innovator in her field with an active membership in the Innovation, Design and Entrepreneurship Academy at Rutgers.
                 </div>
             </div>
-            <div className='flex flex-row space-x-5 w-full pt-4'>
-            <div className='m-auto w-1/3 space-y-2 flex flex-col'>
-                    <img src={chai} className='rounded-xl aspect-square m-auto'></img>
-                    <h2 className='font-medium text-xl m-auto text-center pt-2'>
-                    Chaitanya <br />Kadimisetty 
-                    </h2>
-                    <h3 className='font-medium text-md text-gray-300 m-auto text-center'>CIO</h3>
-                    <a href="https://www.linkedin.com/in/chaitanyakadimisetty/">
-                    <h3 className='font-medium text-md hover:font-bold text-gray-100 m-auto text-center'>LinkedIn</h3>
-                    </a>
-                </div>
-                <div className='bg-savant-info-2 w-2/3 m-auto text-white text-md overflow-y-auto p-6 rounded-xl h-48'>
-                Chaitanya is an experienced IT leader, educator and innovator. Chaitanya has been crucial in developing system processes in educational technology startups and has developed leadership and functional policies surrounding  corporate governance of IT infrastructure and asset tracking. Chaitanya is an experienced tutor, and has over six years of tutoring and teaching experience. Chaitanya has led multiple teams and focus groups centered on innovating and furthering intrest in education, and has worked with tutoring departments within universities to further individualize tutoring curriculum and procedures to generate student intetest. Chaitanya oversaw the transformation of his tutoring center by implementing technology and teaching aids into tutoring sessions, and has been a primary proponent of digitizing learning. 
-                </div>
-            </div>
             </div>
             </AnimationOnScroll>
             <AnimationOnScroll animateIn="animate__fadeIn">
@@ -122,13 +102,18 @@ export default function Team() {
             <div className='rounded-xl p-6 m-auto text-white my-6'>
             <h1 className='font-bold text-2xl text-center p-1 py-3'>Members</h1>
 
-            <div className='items-center justify-center m-auto grid grid-cols-2 w-full lg:w-11/12 gap-4 pt-4 md:grid-cols-3 justify-center lg:grid-cols-6'>
+            <div className='items-center justify-center m-auto grid grid-cols-2 w-full lg:w-3/4 gap-4 pt-4 md:grid-cols-2 justify-center lg:grid-cols-4'>
+            <div className='m-auto space-y-3 flex flex-col justify-center'>
+                    <img src={chai} className='rounded-xl aspect-square m-auto'></img>
+                    <h2 className='font-medium text-xl m-auto text-center pt-2 p-1 pb-2'>
+                    Chaitanya <br></br>Kadimisetty      
+                    </h2>
+                </div>
                 <div className='m-auto space-y-3 flex flex-col justify-center'>
                     <img src={deshik} className='rounded-xl aspect-square m-auto'></img>
                     <h2 className='font-medium text-xl m-auto text-center pt-2 p-1 pb-2'>
                     Deshik <br></br>Iyengar      
                     </h2>
-
                 </div>
                 <div className='m-auto space-y-3 flex flex-col justify-center'>
                     <img src={rut} className='rounded-xl aspect-square m-auto'></img>
@@ -140,24 +125,6 @@ export default function Team() {
                     <img src={brianna} className='rounded-xl aspect-square m-auto'></img>
                     <h2 className='font-medium text-xl m-auto text-center pt-2 p-1 pb-2'>
                     Brianna <br />Lischy         
-                    </h2>
-                </div>
-                <div className='m-auto space-y-3 flex flex-col justify-center'>
-                    <img src={janae} className='rounded-xl aspect-square m-auto'></img>
-                    <h2 className='font-medium text-xl m-auto text-center pt-2 p-1 pb-2'>
-                    Janae <br />Anderson      
-                    </h2>
-                </div>
-                <div className='m-auto space-y-3 flex flex-col justify-center'>
-                    <img src={kat} className='rounded-xl aspect-square m-auto'></img>
-                    <h2 className='font-medium text-xl m-auto text-center pt-2 p-1 pb-2'>
-                    Katherine <br />Dinh     
-                    </h2>
-                </div>
-                <div className='m-auto space-y-3 flex flex-col justify-center'>
-                    <img src={aileen} className='rounded-xl aspect-square m-auto'></img>
-                    <h2 className='font-medium text-xl m-auto text-center pt-2 p-1 pb-2'>
-                    Aileen <br />Roldan     
                     </h2>
                 </div>
             </div>

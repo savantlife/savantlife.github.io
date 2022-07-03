@@ -19,28 +19,28 @@ export default function Footer() {
 <h2 class="mb-6 text-sm font-semibold uppercase">Menu</h2>
 <ul class="text-white">
 <li class="mb-4">
-    <Link to="/">
+    <Link to="../">
     <p class="hover:underline">Home</p>
     </Link>
 </li>
 <li class="mb-4">
-<Link to="/products">
+<Link to="../products">
 <p class="hover:underline">Savant</p>
 </Link>
 </li>
 <li class="mb-4">
-<Link to="/products/metaweaver">
+<Link to="../products/metaweaver">
 <p class="hover:underline">MetaWeaver
 </p>
 </Link>
 </li>
 <li class="mb-4">
-<Link to="/science">
+<Link to="../science">
 <p class="hover:underline">Science
 </p>
 </Link>
 </li>
-<Link to="/aboutus">
+<Link to="../aboutus">
 <p class="hover:underline">About Us
 </p>
 </Link>

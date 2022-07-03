@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from "react-dom";
-import { BrowserRouter, Routes,
+import { BrowserRouter, HashRouter, Routes,
   Route,  } from "react-router-dom";
 import './index.css';
 import App from './App';
@@ -16,13 +16,13 @@ import reportWebVitals from './reportWebVitals';
 
 const rootElement = document.getElementById("root");
 render(
-  <BrowserRouter>
+  <BrowserRouter basename="/">
     <Routes>
-    <Route path="/" element={<App />} />
-    <Route path="/products" element={<Products />} />
-    <Route path="/science" element={<Science />} />
-    <Route path="/aboutus" element={<Team />} />
-    <Route path="/products/metaweaver" element={<Metaweaver />} />
+    <Route path="" element={<App />} />
+    <Route path="products" element={<Products />} />
+    <Route path="science" element={<Science />} />
+    <Route path="aboutus" element={<Team />} />
+    <Route path="products/metaweaver" element={<Metaweaver />} />
     <Route path="*" element={<NotFoundPage />} />
     </Routes>
   </BrowserRouter>,
